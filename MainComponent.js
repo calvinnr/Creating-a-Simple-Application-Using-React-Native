@@ -107,7 +107,7 @@ const MainComponent = () => {
             marginTop: 1,
             marginLeft: 1,
           }}>
-          Bogor Kota
+          Yogyakarta Kota
         </Text>
         <View
           style={{
@@ -166,7 +166,7 @@ const MainComponent = () => {
             marginTop: 1,
             marginLeft: 1,
           }}>
-          Bogor Kota
+          Surabaya Kota
         </Text>
         <View
           style={{
@@ -225,7 +225,7 @@ const MainComponent = () => {
             marginTop: 1,
             marginLeft: 1,
           }}>
-          Bogor Kota
+          Jakarta Kota
         </Text>
         <View
           style={{
