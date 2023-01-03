@@ -1,10 +1,10 @@
 import React from 'react';
 import {Image, Text, View, StyleSheet} from 'react-native';
-import hehe from './hehe.jpg';
-import hehe2 from './hehe2.jpg';
-import hehe3 from './hehe3.jpg';
-import hehe4 from './hehe4.jpg';
-import hehe5 from './hehe5.jpg';
+import hehe from '../../assets/image/hehe.jpg';
+import hehe2 from '../../assets/image/hehe2.jpg';
+import hehe3 from '../../assets/image/hehe3.jpg';
+import hehe4 from '../../assets/image/hehe4.jpg';
+import hehe5 from '../../assets/image/hehe5.jpg';
 
 const MainComponent = () => {
   return (
