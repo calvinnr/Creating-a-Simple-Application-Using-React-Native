@@ -3,8 +3,33 @@ import {View, Text, Image} from 'react-native';
 import hehe from '../../assets/image/hehe.jpg';
 
 class Flex extends Component {
+  constructor(props) {
+    super(props);
+    console.log('==> Constructor');
+    this.state = {
+      subscriber: 300,
+    }
+  }
+
+  componentDidMount(){
+    console.log('==> Component Did Mount');
+    setTimeout(() => {
+    this.setState({
+      subscriber: 400,
+    });
+  }, 2000);
+  }
+
+  componentDidUpdate(){
+    console.log('==> Component Did Update');
+  }
+
+  componentWillUnmount(){
+    console.log('==> Component Will Unmount');
+  }
+
   render() {
-    console.log('Hello debugger');
+    console.log('==> Render');
     return (
       <View>
         <View
@@ -44,7 +69,7 @@ class Flex extends Component {
           />
           <View>
             <Text style={{fontWeight: 'bold'}}>Calvin Novryan</Text>
-            <Text>1 Juta Subscribers</Text>
+            <Text>{this.state.subscriber} Subscribers</Text>
           </View>
         </View>
       </View>
